@@ -88,6 +88,7 @@ export function AdminRoom() {
                     <button
                       type="button"
                       onClick={() => handleCheckQuestionAsAnswered(question.id)}
+                      
                     >
                       <img
                         src={checkImg}

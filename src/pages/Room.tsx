@@ -4,7 +4,7 @@ import { Button } from "../components/Button";
 import { RoomCode } from "../components/RoomCode";
 
 import "../styles/room.css";
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useState } from "react";
 import { useAuth } from "../hooks/useAuth";
 import { database } from "../services/firebase";
 import { Question } from "../components/Question";

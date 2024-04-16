@@ -5,7 +5,7 @@ import logoImg from "../assets/images/logo.svg";
 import googleIconImg from "../assets/images/google-icon.svg";
 
 import { Button } from "../components/Button";
-import { FormEvent, useContext, useState } from "react";
+import { FormEvent, useState } from "react";
 import { useAuth } from "../hooks/useAuth";
 
 import "../styles/auth.css";
